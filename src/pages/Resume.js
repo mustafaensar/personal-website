@@ -131,12 +131,12 @@ export default function Resume() {
                       <h3 className="fw-bolder mb-0"><span className="text-gradient d-inline">Languages</span></h3>
                     </div>
                     <div className="row row-cols-1 row-cols-md-3 mb-4">
-                      <div className="col mb-4 mb-md-0"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">HTML</div></div>
-                      <div className="col mb-4 mb-md-0"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">CSS</div></div>
-                      <div className="col"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">JavaScript</div></div>
+                      <div className="col mb-4 mb-md-0"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">HTML/CSS</div></div>
+                      <div className="col mb-4 mb-md-0"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">JavaScript</div></div>
+                      <div className="col"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">React.js</div></div>
                     </div>
                     <div className="row row-cols-1 row-cols-md-3">
-                      <div className="col mb-4 mb-md-0"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">React.js</div></div>
+                      <div className="col mb-4 mb-md-0"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">MySQL</div></div>
                       <div className="col mb-4 mb-md-0"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">Node.js</div></div>
                       <div className="col"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">Solidity</div></div>
                     </div>
