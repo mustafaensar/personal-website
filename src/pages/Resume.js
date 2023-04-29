@@ -16,7 +16,7 @@ export default function Resume() {
                 <h2 className="text-primary fw-bolder mb-0">Experience</h2>
                 {/* Download resume button*/}
                 {/* Note: Set the link href target to a PDF file within your project*/}
-                <a className="btn btn-primary px-4 py-3" href="https://coursera.org/share/358e7429999cc8829a86044abf4282d8">
+                <a className="btn btn-primary px-4 py-3 d-none" href="https://coursera.org/share/358e7429999cc8829a86044abf4282d8">
                   <div className="d-inline-block bi bi-download me-2" />
                   Download Resume
                 </a>
