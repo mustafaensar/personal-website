@@ -22,7 +22,7 @@ export default function Contact() {
                 {/* To make this form functional, sign up at*/}
                 {/* https://startbootstrap.com/solution/contact-forms*/}
                 {/* to get an API token!*/}
-                <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                <form id="contactForm" data-sb-form-api-token="bcfead97-c3e7-4022-9793-105cf4e22843">
                   {/* Name input*/}
                   <div className="form-floating mb-3">
                     <input className="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
