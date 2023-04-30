@@ -68,8 +68,8 @@ export default function Contact() {
                   {/* Submit Button*/}
                   <div className="d-grid"><button className="btn btn-primary btn-lg" id="submitButton" type="submit">Submit</button></div>
                 </form>
-                <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
               </div>
+                <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
             </div>
           </div>
         </div>
