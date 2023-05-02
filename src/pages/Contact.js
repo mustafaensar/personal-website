@@ -1,6 +1,23 @@
-import React from 'react'
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser'
 
 export default function Contact() {
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_mso8owj', 'template_cok44vj', form.current, 'AkL5iQgRNVRXdCYHI')
+      .then((result) => {
+          console.log(result.text);
+          alert("Your message has been sent successfully");
+        }, (error) => {
+          console.log(error.text);
+          alert("Error! Your message could not be sent. Please fill out the form again completely.");
+      });
+  };
+
   return (
     <>
       {/* Page content*/}
@@ -15,36 +32,29 @@ export default function Contact() {
             </div>
             <div className="row gx-5 justify-content-center">
               <div className="col-lg-8 col-xl-6">
-                {/* * * * * * * * * * * * * * * **/}
-                {/* * * SB Forms Contact Form * **/}
-                {/* * * * * * * * * * * * * * * **/}
-                {/* This form is pre-integrated with SB Forms.*/}
-                {/* To make this form functional, sign up at*/}
-                {/* https://startbootstrap.com/solution/contact-forms*/}
-                {/* to get an API token!*/}
-                <form id="contactForm" data-sb-form-api-token="bcfead97-c3e7-4022-9793-105cf4e22843">
+                <form id="contactForm" ref={form} onSubmit={sendEmail}>
                   {/* Name input*/}
                   <div className="form-floating mb-3">
-                    <input className="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
+                    <input className="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" name="user_name" />
                     <label htmlFor="name">Full name</label>
                     <div className="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
                   </div>
                   {/* Email address input*/}
                   <div className="form-floating mb-3">
-                    <input className="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
+                    <input className="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" name="user_email" />
                     <label htmlFor="email">Email address</label>
                     <div className="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
                     <div className="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
                   </div>
                   {/* Phone number input*/}
                   <div className="form-floating mb-3">
-                    <input className="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
+                    <input className="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" name="user_phone" />
                     <label htmlFor="phone">Phone number</label>
                     <div className="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
                   </div>
                   {/* Message input*/}
                   <div className="form-floating mb-3">
-                    <textarea className="form-control" id="message" type="text" placeholder="Enter your message here..." style={{ height: '10rem' }} data-sb-validations="required" defaultValue={""} />
+                    <textarea className="form-control" id="message" type="text" placeholder="Enter your message here..." style={{ height: '10rem' }} data-sb-validations="required" defaultValue={""} name="message"/>
                     <label htmlFor="message">Message</label>
                     <div className="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
                   </div>
@@ -55,9 +65,6 @@ export default function Contact() {
                   <div className="d-none" id="submitSuccessMessage">
                     <div className="text-center mb-3">
                       <div className="fw-bolder">Form submission successful!</div>
-                      To activate this form, sign up at
-                      <br />
-                      <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
                     </div>
                   </div>
                   {/* Submit error message*/}
