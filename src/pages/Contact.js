@@ -6,12 +6,14 @@ export default function Contact() {
 
   const form = useRef();
 
+  const serviceId = process.env.YOUR_SERVICE_ID;
+  const templateId = process.env.YOUR_TEMPLATE_ID;
+  const publicKey = process.env.YOUR_PUBLIC_KEY;
+
   const sendEmail = (e) => {
     e.preventDefault();
 
-    const serviceId = process.env.YOUR_SERVICE_ID;
-    const templateId = process.env.YOUR_TEMPLATE_ID;
-    const publicKey = process.env.YOUR_PUBLIC_KEY;
+    
 
     emailjs.sendForm(serviceId, templateId, form.current, publicKey)
       .then((result) => {
