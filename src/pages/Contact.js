@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
-import emailjs from '@emailjs/browser'
+import emailjs from '@emailjs/browser';
+import toast, {Toaster} from 'react-hot-toast';
 
 export default function Contact() {
 
@@ -11,15 +12,16 @@ export default function Contact() {
     emailjs.sendForm('service_mso8owj', 'template_cok44vj', form.current, 'AkL5iQgRNVRXdCYHI')
       .then((result) => {
           console.log(result.text);
-          alert("Your message has been sent successfully");
+          toast.success("Your message has been sent successfully");
         }, (error) => {
           console.log(error.text);
-          alert("Error! Your message could not be sent. Please fill out the form again completely.");
+          toast.error("Error! Your message could not be sent. Please fill out the form again completely.");
       });
   };
 
   return (
     <>
+      <Toaster/>
       {/* Page content*/}
       <section className="py-5">
         <div className="container px-5">
