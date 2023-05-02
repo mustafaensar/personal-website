@@ -2,10 +2,6 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import toast, {Toaster} from 'react-hot-toast';
 
-const serviceId = process.env.YOUR_SERVICE_ID;
-const templateId = process.env.YOUR_TEMPLATE_ID;
-const publicKey = process.env.YOUR_PUBLIC_KEY;
-
 export default function Contact() {
 
   const form = useRef();
@@ -13,7 +9,7 @@ export default function Contact() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm(serviceId, templateId, form.current, publicKey)
+    emailjs.sendForm(process.env.YOUR_SERVICE_ID, process.env.YOUR_TEMPLATE_ID, form.current, process.env.YOUR_PUBLIC_KEY)
       .then((result) => {
           console.log(result.text);
           toast.success("Your message has been sent successfully");
