@@ -9,7 +9,7 @@ export default function Contact() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm(`"${process.env.YOUR_SERVICE_ID}"`, `"${process.env.YOUR_TEMPLATE_ID}"`, form.current, `"${process.env.YOUR_PUBLIC_KEY}"`)
+    emailjs.sendForm(`${process.env.YOUR_SERVICE_ID}`, `${process.env.YOUR_TEMPLATE_ID}`, form.current, `${process.env.YOUR_PUBLIC_KEY}`)
       .then((result) => {
           console.log(result.text);
           toast.success("Your message has been sent successfully");
