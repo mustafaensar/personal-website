@@ -30,11 +30,41 @@ export default function Resume() {
                       <div className="bg-light p-4 rounded-4">
                         <div className="text-primary fw-bolder mb-2">2022 - Present</div>
                         <div className="small fw-bolder">Web Developer</div>
-                        <div className="small text-muted">USTechacademy</div>
+                        <div className="small text-muted">USTech LLC</div>
                         <div className="small text-muted">Connecticut, US</div>
                       </div>
                     </div>
-                    <div className="col-lg-8"><div>As a member of USTechacademy, I have been taking training to become a Blockchain Developer.  I am currently working as a Web Developer and producing applications with React.</div></div>
+                    <div className="col-lg-8"><div>As a member of <a href='https://ustechacademy.org/' target="_blank" rel="noopener noreferrer"><strong>USTech LLC</strong></a>, I had been taking training to become a Blockchain Developer.  I am currently working as a Web Developer and producing applications with React.</div></div>
+                  </div>
+                </div>
+              </div>
+              <div className="card shadow border-0 rounded-4 mb-5">
+                <div className="card-body p-5">
+                  <div className="row align-items-center gx-5">
+                    <div className="col text-center text-lg-start mb-4 mb-lg-0">
+                      <div className="bg-light p-4 rounded-4">
+                        <div className="text-primary fw-bolder mb-2">2023 Jul - 2023 Sep</div>
+                        <div className="small fw-bolder">Frontend Developer</div>
+                        <div className="small text-muted">DappLabs</div>
+                        <div className="small text-muted">Istanbul, Turkey</div>
+                      </div>
+                    </div>
+                    <div className="col-lg-8"><div>I supported DappLaps as a Frontend Developer in their <a href='https://dappgate.io/' target="_blank" rel="noopener noreferrer"><strong>DappGate</strong></a> project. I established the connections between the contract and the user interface using Wagmi.</div></div>
+                  </div>
+                </div>
+              </div>
+              <div className="card shadow border-0 rounded-4 mb-5">
+                <div className="card-body p-5">
+                  <div className="row align-items-center gx-5">
+                    <div className="col text-center text-lg-start mb-4 mb-lg-0">
+                      <div className="bg-light p-4 rounded-4">
+                        <div className="text-primary fw-bolder mb-2">2020 Sep - 2022 Nov</div>
+                        <div className="small fw-bolder">Web Developer</div>
+                        <div className="small text-muted">Freelance</div>
+                        <div className="small text-muted">Zurich, Switzerland</div>
+                      </div>
+                    </div>
+                    <div className="col-lg-8"><div>HTML, CSS, and JavaScript were used to develop and build user interfaces for web applications. The seamless integration of frontend and backend operations was achieved through collaboration with designers and backend developers. React framework was used to create responsive and interactive components.</div></div>
                   </div>
                 </div>
               </div>
@@ -50,7 +80,7 @@ export default function Resume() {
                       <div className="bg-light p-4 rounded-4">
                         <div className="text-secondary fw-bolder mb-2">2022 - Present</div>
                         <div className="mb-2">
-                          <div className="small fw-bolder">USTechacademy</div>
+                          <div className="small fw-bolder">USTech LLC</div>
                           <div className="small text-muted">Connecticut, US</div>
                         </div>
                         <div className="fst-italic">
