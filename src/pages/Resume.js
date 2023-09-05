@@ -1,4 +1,5 @@
 import React from 'react';
+import resumeDoc from '../docs/Mustafa_Ensar_Cekic_resume.doc';
 
 export default function Resume() {
   return (
@@ -16,7 +17,7 @@ export default function Resume() {
                 <h2 className="text-primary fw-bolder mb-0">Experience</h2>
                 {/* Download resume button*/}
                 {/* Note: Set the link href target to a PDF file within your project*/}
-                <a className="btn btn-primary px-4 py-3" target="_blank" href="../../public/assets/docs/Mustafa_Ensar_Cekic_resume.doc" download>
+                <a className="btn btn-primary px-4 py-3" target="_blank" href={resumeDoc} download rel="noopener noreferrer">
                   <div className="d-inline-block bi bi-download me-2" />
                   Download Resume
                 </a>
