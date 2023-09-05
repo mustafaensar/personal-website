@@ -15,24 +15,27 @@ export default function Projects() {
                 {/* Project Card 1*/}
                 <div className="card overflow-hidden shadow rounded-4 border-0 mb-5">
                   <div className="card-body p-0">
-                    <div className="d-flex align-items-center">
+                    <div className="d-flex flex-wrap align-items-center">
                       <div className="p-5">
-                        <h2 className="fw-bolder">Project Name 1</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius at enim eum illum aperiam placeat esse? Mollitia omnis minima saepe recusandae libero, iste ad asperiores! Explicabo commodi quo itaque! Ipsam!</p>
+                        <h2 className="fw-bolder">DappGate</h2>
+                        <p>I took over the role as a Frontend Developer with using Wagmi React Hook in the development of DappGate, a pioneering #LayerZero solution designed to bridge ONFTs and OFTs across various networks, ultimately empowering users with seamless cross-chain interactions and control over their digital futures.</p>
                       </div>
-                      <img className="img-fluid" src="https://dummyimage.com/300x400/343a40/6c757d" alt="..." />
+                      <a className='p-0' href='https://dappgate.io/' target="_blank" rel="noopener noreferrer">
+                      <img className="img-fluid" src="assets/projects/dappgate.png" alt="..." />
+                      </a>
                     </div>
                   </div>
                 </div>
-                {/* Project Card 2*/}
-                <div className="card overflow-hidden shadow rounded-4 border-0">
+                <div className="card overflow-hidden shadow rounded-4 border-0 mb-5">
                   <div className="card-body p-0">
-                    <div className="d-flex align-items-center">
+                    <div className="d-flex flex-wrap align-items-center">
                       <div className="p-5">
-                        <h2 className="fw-bolder">Project Name 2</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius at enim eum illum aperiam placeat esse? Mollitia omnis minima saepe recusandae libero, iste ad asperiores! Explicabo commodi quo itaque! Ipsam!</p>
+                        <h2 className="fw-bolder">NFT Marketplace</h2>
+                        <p>I have successfully developed my own NFT marketplace, leveraging cutting-edge technologies such as Hash-Lips Art Engine and ThirdWeb. This innovative platform allows users to seamlessly connect their wallets and engage in a multitude of actions on the Mumbai Testnet. Connect your wallet and buy, sell, or claim NFTs.</p>
                       </div>
-                      <img className="img-fluid" src="https://dummyimage.com/300x400/343a40/6c757d" alt="..." />
+                      <a className='p-0' href='https://mensarmarkt.vercel.app/' target="_blank" rel="noopener noreferrer">
+                      <img className="img-fluid" src="assets/projects/mensarmarkt.png" alt="..." />
+                      </a>
                     </div>
                   </div>
                 </div>
