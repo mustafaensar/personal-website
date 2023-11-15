@@ -47,7 +47,7 @@ export default function Resume() {
                   <div className="row align-items-center gx-5">
                     <div className="col text-center text-lg-start mb-4 mb-lg-0">
                       <div className="bg-light p-4 rounded-4">
-                        <div className="text-primary fw-bolder mb-2">2023 Jul - 2023 Sep</div>
+                        <div className="text-primary fw-bolder mb-2">2023 Jul - Sep</div>
                         <div className="small fw-bolder">Frontend Developer</div>
                         <div className="small text-muted">DappLabs</div>
                         <div className="small text-muted">Istanbul, Turkey</div>
@@ -124,7 +124,7 @@ export default function Resume() {
                         </div>
                       </div>
                     </div>
-                    <div className="col-lg-8"><div>Before moving to Europe, I completed the undergraduate program at Ankara University Faculty of Law. I have studied extensively in Civil Law, Law of Obligations, Property Law, Tax Law, Criminal Law and many other areas.</div></div>
+                    <div className="col-lg-8"><div>I completed the undergraduate program at Ankara University Faculty of Law. I have studied extensively in Civil Law, Law of Obligations, Property Law, Tax Law, Criminal Law and many other areas.</div></div>
                   </div>
                 </div>
               </div>
