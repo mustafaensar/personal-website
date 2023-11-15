@@ -53,7 +53,11 @@ export default function Resume() {
                         <div className="small text-muted">Istanbul, Turkey</div>
                       </div>
                     </div>
-                    <div className="col-lg-8"><div>I supported DappLaps as a Frontend Developer in their <a href='https://dappgate.io/' target="_blank" rel="noopener noreferrer"><strong>DappGate</strong></a> project. I established the connections between the contract and the user interface using Wagmi.</div></div>
+                    <div className="col-lg-8">
+                      <div>
+                      Played a crucial part in the conception and execution of the cutting-edge Web3 project “DappGate”. Showed a good aptitude for designing user-centric user interfaces, improving UX/UI for Web3 apps, and making sure that the blockchain and frontend components interacted consistently and effectively. Facilitated the usage of Wagmi (React Hook) to integrate smart contracts with user interfaces, delivering a smooth user experience. Worked closely with a cross-functional team of engineers, designers, and blockchain specialists to improve and hone platform performance. Used cutting-edge Web3 ecosystem tools and technologies to improve the project's capabilities and features. Carried out routine code reviews and put optimizations for better performance and maintainability. Helped troubleshoot and fix front end-related issues that users had reported.
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
