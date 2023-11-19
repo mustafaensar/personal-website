@@ -29,9 +29,9 @@ export default function Resume() {
                     <div className="col text-center text-lg-start mb-4 mb-lg-0">
                       <div className="bg-light p-4 rounded-4">
                         <div className="text-primary fw-bolder mb-2">2020 - Present</div>
-                        <div className="small fw-bolder">Web Developer</div>
-                        <div className="small text-muted">Raindrop of Dallas</div>
-                        <div className="small text-muted">Texas, US</div>
+                        <div className="small fw-bolder">Frontend Developer</div>
+                        <div className="small text-muted">USTech LLC</div>
+                        <div className="small text-muted">Connecticut, US</div>
                       </div>
                     </div>
                     <div className="col-lg-8">
