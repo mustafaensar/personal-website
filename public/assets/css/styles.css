@@ -11582,14 +11582,16 @@ html {
   position: relative;
   height: 75vw;
   width: 75vw;
-  border-radius: 5vw;
   margin-top: 5vw;
   max-height: 40rem;
   max-width: 40rem;
+  border-radius: 5vw 5vw 0 0;
 }
 .profile .profile-img {
-  height: 80vw;
-  max-height: 45rem;
+  height: 75vw;
+  width: 74.7vw;
+  max-height: 40rem;
+  max-width: 40rem;
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -11617,7 +11619,7 @@ html {
   position: absolute;
   width: 3vw;
   left: 1.5vw;
-  bottom: 6.05vw;
+  bottom: 15.05vw;
 }
 .profile .dots-3 svg {
   fill: #fff;
@@ -11626,7 +11628,7 @@ html {
   position: absolute;
   width: 3vw;
   left: -4vw;
-  bottom: 4vw;
+  bottom: 17vw;
 }
 .profile .dots-4 svg {
   fill: #1e30f3;
